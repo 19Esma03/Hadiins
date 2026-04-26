@@ -22,6 +22,11 @@ public class GameIntroManager : MonoBehaviour
 
     [Header("Zamanlama ve Ayarlar")]
     [SerializeField] private float scaleDuration = 10f; // Büyüme ve sesin artma süresi (10 sn ideal)
+
+    float elapsedTime = 0f;
+    Vector3 initialPeoplesScale = Vector3.one;
+    Vector3 targetPeoplesScale = Vector3.one; // Ulaþacaklarý son boyut
+
     [SerializeField] private float targetScaleMultiplier = 3f; // Kaç kat büyüyecek
 
     private void Start()
@@ -77,6 +82,15 @@ public class GameIntroManager : MonoBehaviour
         if (peoples != null)
         {
             initialPeoplesScale = peoples.transform.localScale;
+
+            // HEDEF BOYUTU AYARLIYORUZ:
+            targetPeoplesScale = initialPeoplesScale;
+            targetPeoplesScale.y *= targetScaleMultiplier; // Y ekseni (Yukarý) belirlenen kat kadar uzar.
+
+            // Eðer saða sola (X ve Z) farklý bir oranda büyüsün istersen alttaki sayýlarý deðiþtirebilirsin (Þu an 1.5 kat geniþler):
+            targetPeoplesScale.x *= 1.5f;
+            targetPeoplesScale.z *= 1.5f;
+
             Debug.Log("ADIM 3: Peoples objesi bulundu. Ýlk boyut: " + initialPeoplesScale);
         }
         else
@@ -103,13 +117,13 @@ public class GameIntroManager : MonoBehaviour
 
         Debug.Log("ADIM 5: Döngü süresi BÝTTÝ. Ýnsanlar þimdi siliniyor.");
         crowdAudio.Stop();
-        if (peoples != null) peoples.SetActive(false);
+        if (peoples != null) Destroy(peoples);
 
         yield return new WaitForSeconds(0.5f);
 
         Debug.Log("ADIM 6: Nefes sesi çalýyor...");
         breathAudio.Play();
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(3.7f);
 
         villainAudio.Play();
         yield return new WaitForSeconds(2.5f);
@@ -122,6 +136,7 @@ public class GameIntroManager : MonoBehaviour
             playerController.enabled = true;
 
         yield return new WaitForSeconds(3f);
+        villainAudio.Stop();
         runTextUI.SetActive(false);
     }
 }

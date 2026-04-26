@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8483726969060783348, guid: eec21421d50e5224c9eb0a57ef8e876f, type: 3}
       propertyPath: m_Name
-      value: kid2 (1) Variant
+      value: kid2 VariandLib
       objectReference: {fileID: 0}
     - target: {fileID: 8483726969060783348, guid: eec21421d50e5224c9eb0a57ef8e876f, type: 3}
       propertyPath: m_IsActive
@@ -107,7 +107,29 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8483726969060783348, guid: eec21421d50e5224c9eb0a57ef8e876f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1149738883336937938}
+    - targetCorrespondingSourceObject: {fileID: 1584283928893225246, guid: eec21421d50e5224c9eb0a57ef8e876f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 631294566493822423}
   m_SourcePrefab: {fileID: 100100000, guid: eec21421d50e5224c9eb0a57ef8e876f, type: 3}
+--- !u!1 &1972971427788931427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1584283928893225246, guid: eec21421d50e5224c9eb0a57ef8e876f, type: 3}
+  m_PrefabInstance: {fileID: 1053251710045173885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &631294566493822423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972971427788931427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497d462161c00b34cbddca7bac72d155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteract
+  interactDistance: 5
+  interactUI: {fileID: 0}
 --- !u!1 &8872555686606949513 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8483726969060783348, guid: eec21421d50e5224c9eb0a57ef8e876f, type: 3}

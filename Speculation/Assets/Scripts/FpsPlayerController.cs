@@ -47,7 +47,7 @@ public class FPSPlayerController : MonoBehaviour
     private static readonly int HashIsCouch = Animator.StringToHash("isCouch");
     private static readonly int HashIsAir = Animator.StringToHash("isAir");
     private static readonly int HashJump = Animator.StringToHash("Jump");
-    private static readonly int HashIsWaC = Animator.StringToHash("isWalkAndCrouch");
+    private static readonly int HashIsWaC = Animator.StringToHash("isWalkandCrouch");
 
     private float footstepTimer = 0f;
 
