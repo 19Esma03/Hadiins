@@ -58,8 +58,6 @@ public class FPSPlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         audioSrc = GetComponent<AudioSource>();
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         cc.height = standHeight;
     }
 
