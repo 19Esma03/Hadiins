@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81C9BD78-4A51-C89E-1903-12B9C25A5A64}|Assembly-CSharp.csproj|c:\\users\\esman\\onedrive\\masa\u00FCst\u00FC\\anijam2026\\hadiins\\speculation\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C9BD78-4A51-C89E-1903-12B9C25A5A64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81C9BD78-4A51-C89E-1903-12B9C25A5A64}|Assembly-CSharp.csproj|c:\\users\\esman\\onedrive\\masa\u00FCst\u00FC\\anijam2026\\hadiins\\speculation\\assets\\scripts\\enterlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81C9BD78-4A51-C89E-1903-12B9C25A5A64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enterlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sceneloader.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\Sceneloader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sceneloader.cs",
+              "ToolTip": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\Sceneloader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sceneloader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T12:06:01.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EnterLib.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\EnterLib.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnterLib.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MirrorLabyrinthManager.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\MirrorLabyrinthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MirrorLabyrinthManager.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MirrorChoice.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\MirrorChoice.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MirrorChoice.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MirrorTrigger.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\MirrorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MirrorTrigger.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MirrrorScript.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\MirrrorScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MirrrorScript.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FpsPlayerController.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\FpsPlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FpsPlayerController.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GameIntroManager.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\GameIntroManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameIntroManager.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MirrorPathManager.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\MirrorPathManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MirrorPathManager.cs",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\Main.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main.cs",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\Users\\esman\\OneDrive\\Masa\u00FCst\u00FC\\AniJam2026\\Hadiins\\Speculation\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",
