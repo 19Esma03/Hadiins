@@ -6888,6 +6888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 154729655}
   - component: {fileID: 154729654}
+  - component: {fileID: 154729656}
   m_Layer: 0
   m_Name: CircusEntranceTrigger
   m_TagString: Untagged
@@ -6931,6 +6932,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154729656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154729653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0862df1fa2d5a4c48b10ae9086e64dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+  sceneName: LabyrinthScene
 --- !u!65 &156014188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67550,6 +67564,8 @@ PrefabInstance:
     - {fileID: 5627508519362197553, guid: 72484fa6c7b98ad44b2836f07c1cb43d, type: 3}
     - {fileID: 875909206869687930, guid: 72484fa6c7b98ad44b2836f07c1cb43d, type: 3}
     - {fileID: 9075273442326915678, guid: 72484fa6c7b98ad44b2836f07c1cb43d, type: 3}
+    - {fileID: 4649977768263000072, guid: 72484fa6c7b98ad44b2836f07c1cb43d, type: 3}
+    - {fileID: 516959258567416795, guid: 72484fa6c7b98ad44b2836f07c1cb43d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4985575977282221128, guid: 72484fa6c7b98ad44b2836f07c1cb43d, type: 3}
